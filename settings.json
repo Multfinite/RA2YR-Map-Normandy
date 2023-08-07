@@ -1,0 +1,7 @@
+{
+	"INIMerger": "../../Tools/INIMerger/INIMerger",
+	"BriefingGen": "../../Tools/BriefingGen/BriefingGen",
+	"Gamemodes": "../../Gamemodes",
+	"Patches": "../../Rules",
+	"Output": "out"
+}

@@ -1,0 +1,18 @@
+{
+	"source": "[8] Normandy clean.map",
+	"name": "[8] Normandy 4x4 - v__VERSION__ __MODES__",
+	"filename": "[8] Normandy v__VERSION__ __GAMEMODE__.map",
+	"version": "2.1.1",
+	"naming": "Naming.ini",
+	"gamemodes":
+	[
+		"gm_invasion",
+		"gm_invasion_fleet_patch",
+		"gm_invasion_ra2",
+		"gm_invasion_fleet_patch_ra2",
+		"gm_invasion_ra2plus",
+		"gm_invasion_fleet_patch_ra2plus",
+		"gm_invasion_ra2plus_no_faction",
+		"gm_invasion_fleet_patch_ra2plus_no_factions"
+	]
+}
