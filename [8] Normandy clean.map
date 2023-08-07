@@ -2033,25 +2033,25 @@ Name=GOTO_104
 [01000107]
 0=3,57
 1=8,0
-2=2,0
+2=16,57
 Name=GOTO_57
 
 [01000108]
 0=3,56
-1=0,8
-2=2,2
+1=8,0
+2=18,56
 Name=GOTO_56
 
 [01000109]
 0=3,55
-1=0,8
-2=2,0
+1=8,0
+2=18,55
 Name=GOTO_55
 
 [01000110]
 0=3,54
 1=8,0
-2=2,0
+2=16,54
 Name=GOTO_54
 
 [01000111]
@@ -3731,7 +3731,7 @@ PlayerControl=no
 01000182=1,36,0,53
 
 [FA2spVersionControl]
-Version=317
+Version=320
 
 [French]
 IQ=0
@@ -9695,4 +9695,4 @@ PercentBuilt=0
 PlayerControl=no
 
 [Digest]
-1=AOs3xTIlzxd2In9gGxXfjWQ1nOI=
+1=imr4XhIPdgY4MmVFBS2kRlWKhtI=
