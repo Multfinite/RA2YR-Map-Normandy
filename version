@@ -8,13 +8,17 @@
 	[
 		"gm_invasion",
 		"gm_invasion_fleet_patch",
+
 		"gm_invasion_yss",
 		"gm_invasion_fleet_patch_yss",
+
 		"gm_invasion_ra2",
 		"gm_invasion_fleet_patch_ra2",
+
 		"gm_invasion_ra2plus",
 		"gm_invasion_fleet_patch_ra2plus",
-		"gm_invasion_ra2plus_no_faction",
+
+		"gm_invasion_ra2plus_no_factions",
 		"gm_invasion_fleet_patch_ra2plus_no_factions"
 	]
 }
