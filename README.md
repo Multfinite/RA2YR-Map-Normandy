@@ -2,7 +2,7 @@
 
 ***Original author - kapow***
 
-*Note: Here placed only a 'clean' map version - without patches and something else. Map should be 'assemblied' via RA2YRCollectionPatch merging.*
+*Note: Here placed only a 'clean' map version - without patches and something else. Map should be 'assemblied' via RA2YRPatchCollection merging.*
 
 Red Alert 2 Yuri's Revenge Map - Normandy 4x4
 
