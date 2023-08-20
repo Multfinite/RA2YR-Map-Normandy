@@ -7,6 +7,7 @@ BriefingGen=`cat settings.json | jq --raw-output '.BriefingGen'`
 Gamemodes=`cat settings.json | jq --raw-output '.Gamemodes'`
 Output=`cat settings.json | jq --raw-output '.Output'`
 Patches=`cat settings.json | jq --raw-output '.Patches'`
+MissionTester=`cat settings.json | jq --raw-output '.MissionTester'`
 
 SourceFile=`cat version | jq --raw-output '.source'`
 NamePattern=`cat version | jq --raw-output '.name'`
@@ -24,11 +25,18 @@ echo "Name Pattern: $NamePattern"
 echo "Output File Pattern: $OutputFilePattern"
 echo "Map Version: $Version"
 echo "Naming: $Naming"
+echo "Mission Tester by @athse: $MissionTester"
 
 `mkdir -p $Output`
 
  cr=$'\r'
  lf=$'\n'
+
+ echo "====Run mistest on clean map===="
+ cmd="tclsh \"$MissionTester\" \"$SourceFile\""
+ echo "($cmd)"
+ eval $cmd
+ echo "========================"
 
 jq -c -r '.gamemodes[]' version | while read Gamemode; do
 	echo "=================="
