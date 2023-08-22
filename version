@@ -2,10 +2,12 @@
 	"source": "[8] Normandy clean.map",
 	"name": "[8] Normandy 4x4 - v__VERSION__ __MODES__",
 	"filename": "[8] Normandy v__VERSION__ __GAMEMODE__.map",
-	"version": "2.1.7t16",
+	"version": "2.1.7t22",
 	"naming": "Naming.ini",
 	"gamemodes":
 	[
+		"gm_invasion_vanilla",
+
 		"gm_invasion",
 		"gm_invasion_fleet_patch",
 
