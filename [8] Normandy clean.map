@@ -1919,13 +1919,14 @@ Group=-1
 [01000081]
 0=9,0
 1=26,1
-Name=Player1MCVChrono
+2=5,60
+Name=1_MCV_Chronoshifted
 
 [01000082]
 Max=5
 Full=no
 Name=1_AMCV_Chronoshifted
-Group=-1
+Group=11
 House=<Player @ A>
 Script=01000081
 Whiner=no
@@ -1959,7 +1960,7 @@ AreTeamMembersRecruitable=no
 Max=5
 Full=no
 Name=1_SMCV_Chronoshifted
-Group=-1
+Group=12
 House=<Player @ A>
 Script=01000081
 Whiner=no
@@ -1993,7 +1994,7 @@ AreTeamMembersRecruitable=no
 Max=5
 Full=no
 Name=1_PCV_Chronoshifted
-Group=-1
+Group=13
 House=<Player @ A>
 Script=01000081
 Whiner=no
@@ -2243,20 +2244,23 @@ AreTeamMembersRecruitable=no
 
 [01000114]
 0=39,11
-1=20,12
-2=31,0
+1=5,60
+2=20,12
+3=31,0
 Name=1_AMCV
 
 [01000115]
 0=39,12
-1=20,12
-2=31,0
+1=5,60
+2=20,12
+3=31,0
 Name=1_SMCV
 
 [01000116]
 0=39,13
-1=20,12
-2=31,0
+1=5,60
+2=20,12
+3=31,0
 Name=1_PCV
 
 [01000119]
@@ -8710,6 +8714,27 @@ Name=PATROL_90_62_89_63_60_69
 9=6,1
 Name=PATROL_58_59_54_52_53_52_54_59_58
 
+[01001118]
+0=1,SAPC
+Name=1SAPC
+Group=-1
+
+[01001119]
+0=1,LCRF
+Name=1LCRF
+Group=-1
+
+[01001120]
+0=1,YHVR
+Name=1YHVR
+Group=-1
+
+[01001131]
+0=1,SAPC
+1=1,SMCV
+Name=1SAPC_1SMCV
+Group=-1
+
 [AITriggerTypesEnable]
 043F40BC-G=yes
 043F521C-G=yes
@@ -9834,7 +9859,7 @@ PlayerControl=no
 01001111=1,13,0,10
 
 [FA2spVersionControl]
-Version=1130
+Version=1153
 
 [French]
 IQ=0
@@ -15112,6 +15137,10 @@ DestroyableBridges=yes
 35=01000914
 36=01000915
 37=01000916
+38=01001118
+39=01001119
+40=01001120
+41=01001131
 
 [TeamTypes]
 0=01000042
@@ -16493,7 +16522,7 @@ DestroyableBridges=yes
 01000478=Americans,<none>,ZZZZ_EMPTY_TRIGGER,0,1,1,1,0
 01000480=Americans,<none>,ZZZZ_EMPTY_TRIGGER,0,1,1,1,0
 01000482=Americans,<none>,ZZZZ_EMPTY_TRIGGER,0,1,1,1,0
-01000487=Neutral,<none>,002_Spawn_Test_Units,0,1,1,1,0
+01000487=Neutral,<none>,002_Spawn_Test_Units,1,1,1,1,0
 01000489=Americans,<none>,ZZZZ_EMPTY_TRIGGER,0,1,1,1,0
 01000519=Americans,<none>,A_2_Detect_MCV,0,1,1,1,0
 01000539=Americans,<none>,ZZYX_1234_MAIN_ROAD_Paradrop_Body_1,1,1,1,1,0
@@ -16920,7 +16949,7 @@ DestroyableBridges=yes
 100=108126
 101=141064
 102=100198
-103=226111
+103=227112
 104=58144
 105=127185
 106=166189
@@ -17033,4 +17062,4 @@ IsSelectableCombatant=no
 AllowedToStartInMultiplayer=no
 
 [Digest]
-1=fnUvvxnr4g5rQQL/6BsJYL95HLs=
+1=MojPDqpJqphytM1RWEqHz7sb8zE=
