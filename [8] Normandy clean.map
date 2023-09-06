@@ -1937,7 +1937,7 @@ Annoyance=no
 IonImmune=no
 Recruiter=no
 Reinforce=no
-TaskForce=01000186
+TaskForce=01001132
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -1971,7 +1971,7 @@ Annoyance=no
 IonImmune=no
 Recruiter=no
 Reinforce=no
-TaskForce=01000101
+TaskForce=01001133
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -2005,7 +2005,7 @@ Annoyance=no
 IonImmune=no
 Recruiter=no
 Reinforce=no
-TaskForce=01000189
+TaskForce=01001134
 TechLevel=0
 Aggressive=no
 Autocreate=no
@@ -8729,8 +8729,24 @@ Group=-1
 Name=1SAPC_1SMCV
 Group=-1
 
+[01001132]
+0=1,AMCV_Proxy
+Name=_1AMCV_Proxy
+Group=-1
+
+[01001133]
+0=1,SMCV_Proxy
+Name=_1SMCV_Proxy
+Group=-1
+
+[01001134]
+0=1,PCV_Proxy
+Name=_1PCV_Proxy
+Group=-1
+
 [8]
 edit_all_flags.ini=edit_all_flags.ini
+edit_proxy_mcv.ini=edit_proxy_mcv.ini
 
 [AITriggerTypesEnable]
 043F40BC-G=yes
@@ -8901,6 +8917,49 @@ edit_all_flags.ini=edit_all_flags.ini
 0ECCF68C-G=yes
 0ECCFA7C-G=yes
 0ECCFCAC-G=yes
+
+[AMCV_Proxy]
+ROT=5
+Cost=3000
+Name=Allied Construction Vehicle (Proxy)
+Size=6
+Armor=heavy
+Image=MCV
+Owner=British,French,Germans,Americans,Alliance
+Sight=6
+Speed=4
+Crewed=yes
+Points=60
+UIName=Name:AMCV_Proxy
+Weight=3.5
+Crusher=yes
+Soylent=3000
+Category=Support
+DieSound=GenVehicleDie
+Strength=1000
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1}
+MaxDebris=6
+MoveSound=MCVMoveStart
+TechLevel=-1
+Trainable=no
+VoiceMove=MCVAlliedMove
+Bunkerable=no
+CrateGoodie=yes
+DeploySound=PlaceBuilding
+DeploysInto=GACNST
+ThreatPosed=0
+VoiceAttack=MCVAlliedMove
+VoiceSelect=MCVAlliedSelect
+MovementZone=Normal
+Prerequisite=GAWEAP,GADEPT
+ZFudgeColumn=12
+ZFudgeTunnel=15
+VoiceFeedback=
+EditorCategory=Allies
+OmniCrushResistant=yes
+SpecialThreatValue=1
+DamageParticleSystems=SparkSys,SmallGreySSys
 
 [Actions]
 01000000=2,53,2,01001125,0,0,0,0,A,53,2,01001127,0,0,0,0,A
@@ -10246,7 +10305,7 @@ PlayerControl=no
 01001129=1,13,0,1
 
 [FA2spVersionControl]
-Version=1222
+Version=1235
 
 [French]
 IQ=0
@@ -14170,6 +14229,50 @@ DeathWeaponDamageModifier=.1
 51=AAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4AHAAAggf/+/x//gAcAACCB//7/H/
 52=+ABwAAIIH//v8f/4AHAAAggf/+/x//gA==
 
+[PCV_Proxy]
+ROT=5
+Cost=3000
+Name=Yuri Construction Vehicle (Proxy)
+Size=6
+Armor=heavy
+Image=PCV
+Owner=YuriCountry
+Sight=8
+Speed=4
+Crewed=yes
+Points=60
+UIName=Name:YMCV_Proxy
+Weight=3.5
+Crusher=yes
+Soylent=3000
+Category=Support
+DieSound=GenVehicleDie
+Strength=1000
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1}
+MaxDebris=6
+MoveSound=MCVMoveStart
+TechLevel=-1
+Trainable=no
+VoiceMove=MCVYuriMove
+Bunkerable=no
+CrushSound=TankCrush
+CrateGoodie=yes
+DeploySound=PlaceBuilding
+DeploysInto=YACNST
+ThreatPosed=0
+VoiceAttack=MCVYuriMove
+VoiceSelect=MCVYuriSelect
+MovementZone=Normal
+Prerequisite=YAWEAP,YAGRND
+ZFudgeColumn=12
+ZFudgeTunnel=15
+VoiceFeedback=
+EditorCategory=Yuri
+OmniCrushResistant=yes
+SpecialThreatValue=1
+DamageParticleSystems=SparkSys,SmallGreySSys
+
 [Russians]
 IQ=0
 Edge=North
@@ -14181,6 +14284,50 @@ NodeCount=0
 TechLevel=1
 PercentBuilt=0
 PlayerControl=no
+
+[SMCV_Proxy]
+ROT=5
+Cost=3000
+Name=Soviet Construction Vehicle (Proxy)
+Size=6
+Armor=heavy
+Image=SMCV
+Owner=Russians,Confederation,Africans,Arabs
+Sight=6
+Speed=4
+Crewed=yes
+Points=60
+UIName=Name:SMCV_Proxy
+Weight=3.5
+Crusher=yes
+Soylent=3000
+Category=Support
+DieSound=GenVehicleDie
+Strength=1000
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1}
+MaxDebris=6
+MoveSound=MCVMoveStart
+TechLevel=-1
+Trainable=no
+VoiceMove=MCVSovietMove
+Bunkerable=no
+CrushSound=TankCrush
+CrateGoodie=yes
+DeploySound=PlaceBuilding
+DeploysInto=NACNST
+ThreatPosed=0
+VoiceAttack=MCVSovietMove
+VoiceSelect=MCVSovietSelect
+MovementZone=Normal
+Prerequisite=NAWEAP,NADEPT
+ZFudgeColumn=12
+ZFudgeTunnel=15
+VoiceFeedback=
+EditorCategory=Soviets
+OmniCrushResistant=yes
+SpecialThreatValue=1
+DamageParticleSystems=SparkSys,SmallGreySSys
 
 [ScriptTypes]
 0=01000044
@@ -15099,7 +15246,6 @@ DestroyableBridges=yes
 678=Neutral,CASLAB,256,198,81,0,01000869,1,0,1,0,0,None,None,None,0,0
 679=Neutral,CASLAB,256,199,82,0,01000871,1,0,1,0,0,None,None,None,0,0
 680=Neutral,CASLAB,256,200,83,0,01000873,1,0,1,0,0,None,None,None,0,0
-681=Neutral,GAPILL,256,58,88,0,01000009,1,0,1,0,0,None,None,None,0,0
 
 [Tags]
 01000001=0,000_On_Time_Left 1,01000000
@@ -15550,6 +15696,9 @@ DestroyableBridges=yes
 39=01001119
 40=01001120
 41=01001131
+42=01001132
+43=01001133
+44=01001134
 
 [TeamTypes]
 0=01000042
@@ -17258,6 +17407,9 @@ DestroyableBridges=yes
 
 [VehicleTypes]
 85=ZEPTRAN
+90=AMCV_Proxy
+91=SMCV_Proxy
+92=PCV_Proxy
 
 [Waypoints]
 0=79044
@@ -17481,4 +17633,4 @@ edit_advanced_flags.ini=edit_advanced_flags.ini
 edit_undestroyable_flags.ini=edit_undestroyable_flags.ini
 
 [Digest]
-1=3JkUP3/TsuQp1fDy1VbzxRYryCg=
+1=/T5w747VT+AgO1KuJ74CVEi0cPA=
