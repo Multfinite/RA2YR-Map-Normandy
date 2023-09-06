@@ -10357,7 +10357,7 @@ PlayerControl=no
 01001137=1,13,0,0
 
 [FA2spVersionControl]
-Version=1257
+Version=1267
 
 [French]
 IQ=0
@@ -15988,7 +15988,7 @@ DestroyableBridges=yes
 578=Neutral,CARUFGL2,256,154,39,0,01000017,1,0,1,0,0,None,None,None,0,0
 579=Neutral,CARUFGL2,256,235,175,0,01000021,1,0,1,0,0,None,None,None,0,0
 580=Neutral,CAOUTP,256,235,116,0,None,1,0,1,0,0,None,None,None,0,0
-581=Neutral,NALASR,256,157,62,224,01000019,1,0,1,0,0,None,None,None,0,0
+581=Neutral,NALASR,256,157,62,224,01000017,1,0,1,0,0,None,None,None,0,0
 582=Neutral,NALASR,256,158,55,160,01000017,1,0,1,0,0,None,None,None,0,0
 583=Neutral,CABARR01,256,157,59,0,None,1,0,1,0,0,None,None,None,0,0
 584=Neutral,CABARR02,256,157,57,0,None,1,0,1,0,0,None,None,None,0,0
@@ -18479,4 +18479,4 @@ edit_advanced_flags.ini=edit_advanced_flags.ini
 edit_undestroyable_flags.ini=edit_undestroyable_flags.ini
 
 [Digest]
-1=c+4okwGVCMjRHyv0B86j6p6tFZk=
+1=qoLPp64mSRvkyojt3ZWfDAFIYjQ=
