@@ -4,4 +4,5 @@
 	"Gamemodes": "../../Gamemodes",
 	"Patches": "../../Rules",
 	"Output": "out"
+	"MissionTester":  "../../Tools/mistest5.tcl"
 }
