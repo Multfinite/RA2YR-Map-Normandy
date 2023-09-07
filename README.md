@@ -29,7 +29,10 @@ General:
 0. You will receive reinforcements **even you lost**;
 1. To not break control points, please, **do not leave if you destroyed and do not go to observer**;
 2. Defenders infantry regular reinforcements are passive (can not be disabled);
-3. Day & Night cycle.
+3. Reinforcements known your side;
+4. Defenders bunkers are pre-occupied;
+5. Bunker strength incresed in 3 times;
+6. Day & Night cycle.
 
 The control points mechanic:
 
