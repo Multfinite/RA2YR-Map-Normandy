@@ -69,6 +69,7 @@ List of control points:
 
 Map mode nomenclature:
 
+0. lite - Classic gamemode. No triggerable reinforcements.
 0. YSS - Yuri Soviet Side. Here Yuri is soviet with yuri clone special.
 1. RA2 - RA2 mode
 2. FP - Fleet Patch. Access to naval avaliable only for attackers, and only to AA and Artillery ships.
